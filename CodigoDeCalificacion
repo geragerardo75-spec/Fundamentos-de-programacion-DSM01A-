@@ -1,0 +1,16 @@
+# Inicio
+
+# Entrada
+calificacion = 81
+
+# Proceso
+valor_minimo = 80
+
+# Decisión
+if calificacion >= valor_minimo:
+    # Salida (Sí)
+    print("Ok")
+else:
+    # Salida (No)
+    print("No OK")
+    
