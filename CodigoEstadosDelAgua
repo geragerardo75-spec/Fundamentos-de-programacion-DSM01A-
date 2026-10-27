@@ -1,0 +1,13 @@
+ # Entrada
+temperatura = float(input("Ingrese la temperatura del agua (°C): "))
+
+# Proceso y Decisión
+if temperatura <= 0:
+	# Salida
+	print("Estado SÓLIDO (Hielo)")
+elif temperatura >= 100:
+	# Salida
+	print("Estado GASEOSO (Vapor)")
+else:
+	# Salida
+	print("Estado LÍQUIDO (Agua)")
